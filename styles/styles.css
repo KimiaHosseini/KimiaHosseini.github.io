@@ -120,7 +120,7 @@ body {
 }
 
 .projects h1 {
-  font-size: 30px;
+  font-size: 36px;
   margin-bottom: 20px;
 }
 
@@ -128,15 +128,41 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 20px;
+  gap: 30px;
   overflow-x: scroll;
   width: 100%;
 }
 
 .project-card {
   background-color: #d18da9;
-  width: 200px;
+  width: 300px;
   border-radius: 10px;
   padding: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.project-card h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.project-card p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.project-card .btn {
+  background-color: #6b5b95;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 30px;
 }
