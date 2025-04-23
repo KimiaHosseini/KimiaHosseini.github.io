@@ -34,6 +34,10 @@ body {
   font-size: 18px;
 }
 
+.nav-links a:hover {
+  border-bottom: 2px solid black;
+}
+
 .main-content {
   display: flex;
   justify-content: flex-start;
@@ -80,16 +84,29 @@ body {
   padding: 15px 30px;
   border-radius: 25px;
   text-decoration: none;
+  font-weight: bold;
   font-size: 18px;
 }
 
 .profile-image img {
-  max-width: 200px;
+  max-width: 350px;
   border-radius: 10px;
   object-fit: cover;
 }
 
 .social-icons {
   display: flex;
-  gap: 10px;
+  gap: 15px;
+}
+
+.social-icons a img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+  background: transparent;
+  border-radius: 50%;
+}
+
+.social-icons a:hover img {
+  transform: scale(1.1);
 }
