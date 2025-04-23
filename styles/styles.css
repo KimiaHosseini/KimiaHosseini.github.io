@@ -134,7 +134,7 @@ body {
 }
 
 .project-card {
-  background-color: #d18da9;
+  background-color: #f0f0f0;
   width: 300px;
   border-radius: 10px;
   padding: 20px;
@@ -165,4 +165,28 @@ body {
   font-weight: bold;
   font-size: 18px;
   margin-top: 30px;
+}
+
+.project-cards::-webkit-scrollbar {
+  height: 8px;
+}
+
+.project-cards::-webkit-scrollbar-thumb {
+  background-color: #6b5b95;
+  border-radius: 4px;
+}
+
+.work-experience {
+  margin-top: 40px;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.work-experience h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
 }
